@@ -1,0 +1,10 @@
+package com.pihui.nbsp.booleanExprs;
+
+public enum ExpressionType {
+NOT_NULL,
+GREAT_THAN,
+LESS_THEN,
+GREAT_EQUALS_THAN,
+LESS_EQUALS_THAN,
+IN,BETWEEN_AND
+}
