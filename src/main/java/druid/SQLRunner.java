@@ -3,12 +3,6 @@ package druid;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
-import org.antlr.v4.runtime.tree.ParseTreeWalker;
-
-import com.pihui.nbsp.parser.SQLLexer;
-import com.pihui.nbsp.parser.SQLQuery;
-import com.pihui.nbsp.parser.SQLQueryBaseListener;
-import com.pihui.nbsp.parser.impl.SQLQueryVisitorImpl;
 
 public class SQLRunner {
     public static void main(String[] args) throws Exception {
