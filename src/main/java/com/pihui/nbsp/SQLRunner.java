@@ -35,9 +35,9 @@ public class SQLRunner {
         //TODO 1、查询数据得到结果类数据
         
         //Connection conn = DriverManager.getConnection("");
-        ResultSet sourcecData =null;//= conn.executeQuery(conn);
+        //ResultSet sourcecData =null;//= conn.executeQuery(conn);
         //TODO 2、根据返回的返回结果集合，解析结果集合根据结果做计算
-        ResultSet set = CaculatorUtils.caculat(sourcecData,eval.getQuery());
+        //ResultSet set = CaculatorUtils.caculat(sourcecData,eval.getQuery());
         //ParseTreeWalker walker = new ParseTreeWalker(); // create standard walker
         //SQLQueryBaseListener extractor = new SQLQueryBaseListener(parser);
         //walker.walk(extractor, tree); // initiate walk of tree with listener

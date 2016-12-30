@@ -95,6 +95,12 @@ boolExpr
 	| left = boolExpr EQ right = boolExpr # eqOpr
 	| left = boolExpr AND right = boolExpr # andOpr
 	| left = boolExpr OR right = boolExpr # orOpr
+	| name BETWEEN name AND name
+	| name IN LPAREN identity (COMMA identity)* RPAREN
+	| name LT name
+	| name GT name
+	| name GTEQ name
+	| name LTEQ name
 	| name # nameOpr
 ;
 
